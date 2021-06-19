@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Doremon</title>
+        <script src = "https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene background="color:#000">
+            <a-entity>
+                <a-camera position = '0 0 5'></a-camera>
+            </a-entity>
+
+            <a-sky src = 'https://img2.cgtrader.com/items/2625656/3ac9087803/doraemon-room-in-3d-3d-model-obj-fbx.jpg'></a-sky>
+
+            <a-entity>
+                <a-sphere position = '0 2.8 -4' radius = '2.3' color = '#0a82f2'/>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = '0 0.1 -4' radius = '2.1' color = '#0a82f2'/>
+            </a-entity>
+
+            <a-entity>
+                <a-cylinder position = '-0.7 -1.5 -3.3' radius = '0.7' height = '1' color = '#0a82f2'/>
+            </a-entity>
+
+            <a-entity>
+                <a-cylinder position = '0.7 -1.5 -3.3' radius = '0.7' height = '1' color = '#0a82f2'/>
+            </a-entity>
+
+            <a-entity rotation = '90 0 0' position = '0 1.2 -3.9'>
+                <a-torus color="red" arc="360" radius="1.7" radius-tubular="0.1"></a-torus>
+            </a-entity>
+
+            <a-entity rotation = '90 0 0' position = '0.7 -2 -3.1'>
+                <a-torus color="white" arc="360" radius="0.5" radius-tubular="0.1"></a-torus>
+            </a-entity>
+
+            <a-entity rotation = '90 0 0' position = '-0.7 -2 -3.1'>
+                <a-torus color="white" arc="360" radius="0.5" radius-tubular="0.1"></a-torus>
+            </a-entity>
+
+            <a-entity>
+                <a-cone position = '-1.7 0.5 -3.3' color="#0a82f2" rotation = '0 0 135' height = '2' radius-bottom="0.4" radius-top="0.3"></a-cone>
+            </a-entity>
+
+            <a-entity>
+                <a-cone position = '1.9 0.8 -3.3' color="#0a82f2" rotation = '0 0 -50' height = '2' radius-bottom="0.4" radius-top="0.3"></a-cone>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = '0 1 -1.9' radius = '0.2' color = 'yellow'/>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = '-2.6 -0.4 -3.2' radius = '0.3'/>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = '2.8 1.6 -3.2' radius = '0.3'/>
+            </a-entity>
+
+            <a-entity line="start: 0 2.7 -1.1; end: 0 1.7 -1.1; color: black" >
+                <a-sphere position = '0 2.6 -3.2' radius = '1.7'/>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = '0 0.2 -3.7' radius = '1.9'/>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = '0 2.9 -1.5' radius = '0.1' color = 'red'/>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = '-0.4 3.5 -2.3' radius = '0.5' color = 'white'/>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = '0.4 3.5 -2.3' radius = '0.5' color = 'white'/>
+            </a-entity>
+
+            <a-entity position = '0 0 0' animation = 'property:position; from: -0.4 3.5 -1.8; to: -0.4 3.9 -1.8; dir:alternate; loop:true; dur:1000'>
+                <a-sphere position = '-0.4 3.5 -1.8' radius = '0.1' color = 'black' />
+            </a-entity>
+        </a-scene>
+    </body>
+</html>
